@@ -1,0 +1,1385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbbreviationsListEmpty" xml:space="preserve">
+    <value>Elenco sigle vuoto</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Circa</value>
+  </data>
+  <data name="ACATError" xml:space="preserve">
+    <value>Errore ACAT</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Azione</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Aggiungere</value>
+  </data>
+  <data name="AddAbbreviation" xml:space="preserve">
+    <value>Aggiungere sigla</value>
+  </data>
+  <data name="AddNewAbbreviation" xml:space="preserve">
+    <value>Aggiungere nuova sigla?</value>
+  </data>
+  <data name="AddrBook" xml:space="preserve">
+    <value>Ind. Libro</value>
+    <comment>Address book</comment>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>Appuntamento</value>
+  </data>
+  <data name="AppsListIsEmpty" xml:space="preserve">
+    <value>Elenco APP vuoto</value>
+  </data>
+  <data name="AutosaveScannersLastPosition" xml:space="preserve">
+    <value>Salvataggio automatico ultima posizione dello scanner</value>
+  </data>
+  <data name="BeepOnSelect" xml:space="preserve">
+    <value>Un segnale acustico su Select</value>
+  </data>
+  <data name="BrowserAddFavorites" xml:space="preserve">
+    <value>Aggiungi preferiti</value>
+  </data>
+  <data name="BrowserBack" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="BrowserEmailLink" xml:space="preserve">
+    <value>Collegamento e-mail</value>
+  </data>
+  <data name="BrowserFavorites" xml:space="preserve">
+    <value>Favoriti</value>
+  </data>
+  <data name="BrowserFwd" xml:space="preserve">
+    <value>Avanti</value>
+  </data>
+  <data name="BrowserHistory" xml:space="preserve">
+    <value>Storia</value>
+  </data>
+  <data name="BrowserHomePage" xml:space="preserve">
+    <value>Pagina iniziale</value>
+  </data>
+  <data name="BrowserRefresh" xml:space="preserve">
+    <value>Aggiorna pagina</value>
+  </data>
+  <data name="Calculator" xml:space="preserve">
+    <value>Calcolatrice</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="CalibratingCameraRemainStill" xml:space="preserve">
+    <value>Calibrazione fotocamera... Si prega di rimanere fermi</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="CancelAndQuit" xml:space="preserve">
+    <value>Annullare e chiudere?</value>
+  </data>
+  <data name="CantSaveAbbreviation" xml:space="preserve">
+    <value>Impossibile salvare. Abbreviazione per '{0}' già esiste</value>
+    <comment>{0} is the abbreviation</comment>
+  </data>
+  <data name="ChangesNotSavedQuit" xml:space="preserve">
+    <value>Modifiche non salvate. Chiudere?</value>
+  </data>
+  <data name="ClearFileName" xml:space="preserve">
+    <value>Cancellare il nome del file?</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Cancellare filtro?</value>
+  </data>
+  <data name="ClearTalk" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="ClearTalkWindow" xml:space="preserve">
+    <value>Cancellare la finestra di conversazione</value>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Appunti</value>
+  </data>
+  <data name="ClipboardCopy" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+  <data name="ClipboardCut" xml:space="preserve">
+    <value>Taglia</value>
+  </data>
+  <data name="ClipboardPaste" xml:space="preserve">
+    <value>Incolla</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Chiudere</value>
+  </data>
+  <data name="CloseHighlightedWindow" xml:space="preserve">
+    <value>Chiudere la finestra evidenziata?</value>
+  </data>
+  <data name="CloseLM" xml:space="preserve">
+    <value>Chiudere Lecture Manager?</value>
+  </data>
+  <data name="CloseQ" xml:space="preserve">
+    <value>Chiudere?</value>
+  </data>
+  <data name="CloseTab" xml:space="preserve">
+    <value>Chiudi scheda</value>
+  </data>
+  <data name="CloseWindow" xml:space="preserve">
+    <value>Chiudi la finestra</value>
+  </data>
+  <data name="ColumnIterations" xml:space="preserve">
+    <value>Colonne</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Confermare eliminazione?</value>
+  </data>
+  <data name="ConfirmSend" xml:space="preserve">
+    <value>Confermare Invio?</value>
+  </data>
+  <data name="ConfirmSwitchLanguage" xml:space="preserve">
+    <value>Passare a {0}?</value>
+    <comment>{0} is the language to switch to</comment>
+  </data>
+  <data name="ConfirmSwitchToWindow" xml:space="preserve">
+    <value>Passare a {0}?</value>
+    <comment>{0} is the title of the window to switch to</comment>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contatto</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contatti</value>
+  </data>
+  <data name="ContextInitializationError" xml:space="preserve">
+    <value>Errore di inizializzazione del contesto</value>
+  </data>
+  <data name="ContextInitializationErrorException" xml:space="preserve">
+    <value>Errore di inizializzazione del contesto.  Eccezione: {0}</value>
+    <comment>{0} is the error</comment>
+  </data>
+  <data name="CouldNotCreateFolder" xml:space="preserve">
+    <value>Impossibile creare la cartella {0}</value>
+    <comment>{0} is the name of the folder</comment>
+  </data>
+  <data name="CouldNotCreateUserError" xml:space="preserve">
+    <value>Errore. Impossibile creare la cartella per l'utente {0}.</value>
+    <comment>{0}is the name of the user</comment>
+  </data>
+  <data name="CouldNotFindProfile" xml:space="preserve">
+    <value>Impossibile trovare il profilo {0}</value>
+    <comment>{0}is the name of the profile</comment>
+  </data>
+  <data name="CreateFile" xml:space="preserve">
+    <value>Crea file</value>
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Creare nuovo</value>
+  </data>
+  <data name="CreateNewFile" xml:space="preserve">
+    <value>Creare nuovo file</value>
+  </data>
+  <data name="Defaults" xml:space="preserve">
+    <value>Impostazioni predefinite</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="DeleteAbbr" xml:space="preserve">
+    <value>Eliminare {0}?</value>
+    <comment>{0} is the abbreviation that is to be deleted</comment>
+  </data>
+  <data name="DeleteFile" xml:space="preserve">
+    <value>Cancella il file</value>
+  </data>
+  <data name="DeleteFileQ" xml:space="preserve">
+    <value>Eliminare {0}?</value>
+    <comment>{0} is the name of the file to delete</comment>
+  </data>
+  <data name="DocumentIsEmpty" xml:space="preserve">
+    <value>Il documento è vuoto</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Giù</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="EditAbbreviation" xml:space="preserve">
+    <value>Modificare abbreviazione</value>
+  </data>
+  <data name="EditPhrases" xml:space="preserve">
+    <value>Modifica frasi</value>
+  </data>
+  <data name="EmailAttach" xml:space="preserve">
+    <value>Allegare</value>
+  </data>
+  <data name="EmailAttendees" xml:space="preserve">
+    <value>Partecipanti</value>
+  </data>
+  <data name="EmailForward" xml:space="preserve">
+    <value>Inoltrare</value>
+  </data>
+  <data name="EmailInbox" xml:space="preserve">
+    <value>Posta in arrivo</value>
+  </data>
+  <data name="EmailSend" xml:space="preserve">
+    <value>Invia</value>
+  </data>
+  <data name="EnableAuditLog" xml:space="preserve">
+    <value>Abilitare il registro di controllo</value>
+  </data>
+  <data name="EnableDebugTraceLogging" xml:space="preserve">
+    <value>Abilitare la registrazione della traccia di debug</value>
+  </data>
+  <data name="EnableLearning" xml:space="preserve">
+    <value>Attivare l'apprendimento</value>
+  </data>
+  <data name="EnableVerticalRectangleScan" xml:space="preserve">
+    <value>Abilitare la scansione verticale del rettangolo</value>
+  </data>
+  <data name="EnterCreateEscQuit" xml:space="preserve">
+    <value>Invio Crea, ESC: Esci</value>
+  </data>
+  <data name="EnterFileName" xml:space="preserve">
+    <value>Inserire il nome del file:</value>
+  </data>
+  <data name="EnterKey" xml:space="preserve">
+    <value>Immettere</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="EscapeKey" xml:space="preserve">
+    <value>Esci</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Uscita</value>
+  </data>
+  <data name="ExitingACAT" xml:space="preserve">
+    <value>Uscendo da ACAT...</value>
+  </data>
+  <data name="ExitQuestion" xml:space="preserve">
+    <value>Uscire?</value>
+  </data>
+  <data name="ExitWithoutCreating" xml:space="preserve">
+    <value>Uscire senza creare?</value>
+  </data>
+  <data name="ExpandAbbrOnSeparator" xml:space="preserve">
+    <value>Espandere abbreviazioni su separatore</value>
+  </data>
+  <data name="ExpansionIsEmpty" xml:space="preserve">
+    <value>Espansione di abbreviazione vuota</value>
+  </data>
+  <data name="Explorer" xml:space="preserve">
+    <value>Explorer</value>
+    <comment>Windows Explorer</comment>
+  </data>
+  <data name="ExplorerBack" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="ExplorerClipboard" xml:space="preserve">
+    <value>Appunti di Explorer</value>
+  </data>
+  <data name="ExplorerFileOps" xml:space="preserve">
+    <value>Operazioni File Explorer</value>
+    <comment>File Operations</comment>
+  </data>
+  <data name="ExplorerNavigate" xml:space="preserve">
+    <value>Naviga su Explorer</value>
+  </data>
+  <data name="Faster" xml:space="preserve">
+    <value>Più veloce</value>
+  </data>
+  <data name="FastFwd" xml:space="preserve">
+    <value>Avanti veloce</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>Preferito</value>
+  </data>
+  <data name="FavoritePhrase" xml:space="preserve">
+    <value>Frase preferita</value>
+  </data>
+  <data name="FileAlreadyExists" xml:space="preserve">
+    <value>File già esistente</value>
+  </data>
+  <data name="FileBrowser" xml:space="preserve">
+    <value>File Browser</value>
+  </data>
+  <data name="FileOperations" xml:space="preserve">
+    <value>Operazioni sul file</value>
+  </data>
+  <data name="Find" xml:space="preserve">
+    <value>Trova</value>
+  </data>
+  <data name="FirstPauseTime" xml:space="preserve">
+    <value>Prima pausa</value>
+  </data>
+  <data name="FirstRepeatTime" xml:space="preserve">
+    <value>Prima ripetizione</value>
+  </data>
+  <data name="Folders" xml:space="preserve">
+    <value>Cartelle</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Impostazioni generali</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Buono</value>
+  </data>
+  <data name="Google" xml:space="preserve">
+    <value>Google</value>
+  </data>
+  <data name="GoogleSearch" xml:space="preserve">
+    <value>Cerca con Google</value>
+  </data>
+  <data name="GridIterations" xml:space="preserve">
+    <value>Griglia</value>
+  </data>
+  <data name="HideScannersOnIdle" xml:space="preserve">
+    <value>Nascondere gli scanner su inattivo</value>
+  </data>
+  <data name="InitializationError" xml:space="preserve">
+    <value>Errore di inizializzazione</value>
+  </data>
+  <data name="InitializingCamera" xml:space="preserve">
+    <value>Inizializzazione della fotocamera...</value>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Inserire</value>
+  </data>
+  <data name="InvalidFormName" xml:space="preserve">
+    <value>Nome del modulo non valido {0}</value>
+    <comment>{0}is the name of the form</comment>
+  </data>
+  <data name="InvalidPitchSetting" xml:space="preserve">
+    <value>Impostazione del timbro non valida</value>
+  </data>
+  <data name="InvalidRateSetting" xml:space="preserve">
+    <value>Impostazione di tasso non valida </value>
+  </data>
+  <data name="InvalidVolumeSetting" xml:space="preserve">
+    <value>Impostazione del volume non valida</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="LanguagesListIsEmpty" xml:space="preserve">
+    <value>Elenco è vuoto</value>
+  </data>
+  <data name="LaunchApp" xml:space="preserve">
+    <value>Avviare App</value>
+  </data>
+  <data name="LaunchAppQ" xml:space="preserve">
+    <value>Lancio {0}?</value>
+    <comment>{0} is the name of the application to launch</comment>
+  </data>
+  <data name="LectureManager" xml:space="preserve">
+    <value>Lecture Manager</value>
+  </data>
+  <data name="LectureMgr" xml:space="preserve">
+    <value>Lecture Mgr</value>
+    <comment>Lecture Manager - context menu title</comment>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Sinistra</value>
+  </data>
+  <data name="LMAll" xml:space="preserve">
+    <value>Tutti</value>
+  </data>
+  <data name="LMBack" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="LMForward" xml:space="preserve">
+    <value>Avanti</value>
+  </data>
+  <data name="LMNext" xml:space="preserve">
+    <value>Successivo</value>
+  </data>
+  <data name="LMParagraph" xml:space="preserve">
+    <value>Paragrafo</value>
+  </data>
+  <data name="LMPause" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="LMPaused" xml:space="preserve">
+    <value>IN PAUSA</value>
+  </data>
+  <data name="LMSentence" xml:space="preserve">
+    <value>Frase</value>
+  </data>
+  <data name="LMSetMode" xml:space="preserve">
+    <value>Impostare la modalità...</value>
+  </data>
+  <data name="LMSpeak" xml:space="preserve">
+    <value>Parla...</value>
+  </data>
+  <data name="LMTop" xml:space="preserve">
+    <value>In alto</value>
+  </data>
+  <data name="LoadThisDocIntoLM" xml:space="preserve">
+    <value>Caricare questo documento in Lecture Manager?</value>
+  </data>
+  <data name="LockScreen" xml:space="preserve">
+    <value>Blocca schermo</value>
+  </data>
+  <data name="LockTheScreen" xml:space="preserve">
+    <value>Bloccare lo schermo?</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Posta</value>
+  </data>
+  <data name="MainMenu" xml:space="preserve">
+    <value>Menu principale</value>
+  </data>
+  <data name="MaxDigit" xml:space="preserve">
+    <value>Max Digit</value>
+  </data>
+  <data name="MaxSnap" xml:space="preserve">
+    <value>Ingrandisci/Ripristina</value>
+  </data>
+  <data name="MediaPlayer" xml:space="preserve">
+    <value>Lettore multimediale</value>
+  </data>
+  <data name="MenuDialogScanTime" xml:space="preserve">
+    <value>Scansione menù / finestra di dialogo</value>
+  </data>
+  <data name="MicrosoftEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+    <comment>This is in the title of the Microsoft Edge Browser.  Usually the title is the name of the web page followed by a hypen, followed by the phrase "Microsoft Edge".  The title bar is hidden for Microsoft Edge.  You may have to use a 3rd party tool such as UISpy.exe to get the title.  The translation should match whatever comes after the hyphen.  Translate it appropriately after verifying on a computer with the culture installed.  ACATuses this string to identify the Microsoft Edge window</comment>
+  </data>
+  <data name="MicrosoftWord" xml:space="preserve">
+    <value>Microsoft Word</value>
+    <comment>This is in the title of a word document, usually the file name followed by Microsoft Word.  Take care while translating</comment>
+  </data>
+  <data name="MinActuationHoldTime" xml:space="preserve">
+    <value>Attesa di azionamento min.</value>
+  </data>
+  <data name="MouseLineCycles" xml:space="preserve">
+    <value>Cicli di linea</value>
+  </data>
+  <data name="MouseLineSpeed" xml:space="preserve">
+    <value>Velocità della linea</value>
+  </data>
+  <data name="MouseLineThickness" xml:space="preserve">
+    <value>Spessore della linea</value>
+  </data>
+  <data name="MouseRectangleCycles" xml:space="preserve">
+    <value>Cicli di rettangolo</value>
+  </data>
+  <data name="MouseRectangleSpeed" xml:space="preserve">
+    <value>Velocità rettangolo</value>
+  </data>
+  <data name="MouseScanner" xml:space="preserve">
+    <value>Mouse Scanner</value>
+  </data>
+  <data name="MouseScanSettings" xml:space="preserve">
+    <value>Impostazioni di scansione del mouse</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Spostare verso il basso</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Spostarsi verso l'alto</value>
+  </data>
+  <data name="MoveWindow" xml:space="preserve">
+    <value>Spostare la finestra</value>
+  </data>
+  <data name="Msecs" xml:space="preserve">
+    <value>msec</value>
+    <comment>Milliseconds</comment>
+  </data>
+  <data name="MuteSpeaker" xml:space="preserve">
+    <value>Disattivare altoparlante?</value>
+  </data>
+  <data name="NameOfFile" xml:space="preserve">
+    <value>Nome del File:</value>
+  </data>
+  <data name="Navigate" xml:space="preserve">
+    <value>Navigare</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="NewFile" xml:space="preserve">
+    <value>Nuovo file</value>
+  </data>
+  <data name="NewFileFileType" xml:space="preserve">
+    <value>Tipo di file</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Nuova cartella</value>
+  </data>
+  <data name="NewPinSaveChanges" xml:space="preserve">
+    <value>Il tuo nuovo PIN è {0} \n, Salavare le modifiche?</value>
+    <comment>{0} is the numeric pin</comment>
+  </data>
+  <data name="NewTab" xml:space="preserve">
+    <value>Nuova scheda</value>
+  </data>
+  <data name="NewWindow" xml:space="preserve">
+    <value>Nuova finestra</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Successivo</value>
+  </data>
+  <data name="NextField" xml:space="preserve">
+    <value>Campo successivo</value>
+  </data>
+  <data name="NextTab" xml:space="preserve">
+    <value>Scheda successiva</value>
+  </data>
+  <data name="NextTrack" xml:space="preserve">
+    <value>Prossima traccia</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoActiveWindows" xml:space="preserve">
+    <value>---NESSUNA FINESTRA ATTIVA--</value>
+  </data>
+  <data name="NoCameraSelectedVisionWillNotBeActivated" xml:space="preserve">
+    <value>Nessuna fotocamera selezionata. Il sensore ACAT Vision non sarà attivato</value>
+  </data>
+  <data name="NoCamerasFoundACATVisionDisabled" xml:space="preserve">
+    <value>Nessuna fotocamere trovata! ACAT Vision sarà disabilitata</value>
+  </data>
+  <data name="NoFilesFound" xml:space="preserve">
+    <value>---NESSUN FILE TROVATO--</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="NoOtherLanguagesAreInstalled" xml:space="preserve">
+    <value>Non sono installate altre lingue</value>
+  </data>
+  <data name="NoProgramAssociatedWithFile" xml:space="preserve">
+    <value>Nessun programma associato al file. Aprire comunque?</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="Notepad" xml:space="preserve">
+    <value>Blocco note</value>
+    <comment>Set this to the title of the Notepad application window.  It is displayed in the titlebar of Notepad.  If it says "Notepad" in English, don't translate this string.</comment>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Aperto</value>
+  </data>
+  <data name="OpenFile" xml:space="preserve">
+    <value>Apri il file</value>
+  </data>
+  <data name="OpenFileQ" xml:space="preserve">
+    <value>Aprire {0}?</value>
+    <comment>{0}is the name of the file to open</comment>
+  </data>
+  <data name="Outlook2010AddrBookAddToContactsButtonText" xml:space="preserve">
+    <value>Aggiungi ai contatti</value>
+    <comment>This has to exactly match the text on the "Add to contacts"button in the Address book. </comment>
+  </data>
+  <data name="Outlook2010AddrBookFirstNameFieldLabel" xml:space="preserve">
+    <value>Primo:</value>
+    <comment>This has to exactly match the label of the "First"name in the name field in the Address book window. ACATuses this string to  determine whether the field is the "First"name field</comment>
+  </data>
+  <data name="Outlook2010AddrBookLastNameFieldLabel" xml:space="preserve">
+    <value>Ultimo:</value>
+    <comment>This has to exactly match the label of the "Last" name in the name field in the Address book window. ACATuses this string to  determine whether the field is the "Last"name field</comment>
+  </data>
+  <data name="Outlook2010AddrBookSearchFieldLabel" xml:space="preserve">
+    <value>Ricerca:</value>
+    <comment>This has to exactly match the label of the field in the Address book window. ACATuses this string to  determine whether the field is the Search field</comment>
+  </data>
+  <data name="Outlook2010ApptSchedulingAddAttendeesButtonText" xml:space="preserve">
+    <value>Aggiungere partecipanti ...</value>
+    <comment>This has to exactly match the text of the Add Attendees button in the Scheduling tab in the Open Appointment window. </comment>
+  </data>
+  <data name="Outlook2010ApptSchedulingAllAttendeesList" xml:space="preserve">
+    <value>Tutti i partecipanti</value>
+    <comment>This has to exactly match the label of the "All Attendees"list in the Scheduling tab in the Open Appointment window. </comment>
+  </data>
+  <data name="Outlook2010ApptSchedulingMeetingStartDateFieldLabel" xml:space="preserve">
+    <value>Data di inizio della riunione:</value>
+    <comment>This has to exactly match the text of the label of the Meeting Start Date field the Scheduling tab in the OPen Appointment window. </comment>
+  </data>
+  <data name="Outlook2010EmailTitleSuffixHTML" xml:space="preserve">
+    <value>- Messaggio (HTML)</value>
+    <comment>This has to exactly match the suffix of the title of an email window for a HTML formatted email.  ACAT uses this string to determine whether the window is an email window.</comment>
+  </data>
+  <data name="Outlook2010EmailTitleSuffixPlainText" xml:space="preserve">
+    <value>- Messaggio (Testo normale)</value>
+    <comment>This has to exactly match the suffix of the title of an email window for a Plain Text formatted email.  ACAT uses this string to determine whether the window is an email window.</comment>
+  </data>
+  <data name="Outlook2010EmailTitleSuffixRichText" xml:space="preserve">
+    <value>- Messaggio (Rich Text)</value>
+    <comment>This has to exactly match the suffix of the title of an email window for a RichText formatted email.  ACAT uses this string to determine whether the window is an email window.</comment>
+  </data>
+  <data name="Outlook2010OpenAppointmentStartDateFieldLabel" xml:space="preserve">
+    <value>Data di inizio:</value>
+    <comment>This has to exactly match the label of the start date field in the open Appointment window. ACATuses this string to  determine whether the field is the start date field</comment>
+  </data>
+  <data name="Outlook2010OpenAppointmentSubjectFieldLabel" xml:space="preserve">
+    <value>Oggetto:</value>
+    <comment>This has to exactly match the label of the subject field in the open Appointment window. ACATuses this string to  determine whether the field is the Subject field</comment>
+  </data>
+  <data name="Outlook2010OpenContactCompanyFieldLabel" xml:space="preserve">
+    <value>Azienda:</value>
+    <comment>This has to exactly match the label of the Company field in the open Contact window. ACATuses this string to  determine whether the field is the Company field</comment>
+  </data>
+  <data name="Outlook2010OpenContactFullNameFieldLabel" xml:space="preserve">
+    <value>Nome e cognome</value>
+    <comment>This has to exactly match the label of the Full Name field in the open Contact window. ACATuses this string to  determine whether the field is the Full Name field</comment>
+  </data>
+  <data name="Outlook2010OpenContactJobTitleFieldLabel" xml:space="preserve">
+    <value>Titolo di lavoro:</value>
+    <comment>This has to exactly match the label of the Job Title field in the open Contact window. ACATuses this string to  determine whether the field is the Job Title field</comment>
+  </data>
+  <data name="Outlook2010OpenTaskPercentCompleteFieldLabel" xml:space="preserve">
+    <value>% Completo:</value>
+    <comment>This has to exactly match the label of the % complete field in the open Task window. ACATuses this string to  determine whether the field is the % Complete field</comment>
+  </data>
+  <data name="Outlook2010OpenTaskPriorityFieldLabel" xml:space="preserve">
+    <value>Priorità:</value>
+    <comment>This has to exactly match the label of the Priority field in the open Task window. ACATuses this string to  determine whether the field is the Priority field</comment>
+  </data>
+  <data name="Outlook2010OpenTaskStatusFieldLabel" xml:space="preserve">
+    <value>Stato:</value>
+    <comment>This has to exactly match the label of the Status field in the open Task window. ACATuses this string to  determine whether the field is the Status field</comment>
+  </data>
+  <data name="Outlook2010OpenTaskSubjectFieldLabel" xml:space="preserve">
+    <value>Oggetto:</value>
+    <comment>This has to exactly match the label of the Subject field in the open Task window. ACATuses this string to  determine whether the field is the Subject field</comment>
+  </data>
+  <data name="Outlook2010TitleAddressBook" xml:space="preserve">
+    <value>Rubrica indirizzi</value>
+    <comment>This has to exactly match the title of the Address Book  window in Outlook 2010.  ACATuses this string to  determine whether the window is the Address Book window.</comment>
+  </data>
+  <data name="Outlook2010TitleCalendarPrefix" xml:space="preserve">
+    <value>Calendario</value>
+    <comment>This has to exactly match the prefix of the title of the Calendar window in Outlook.  ACATuses this string to  determine whether the window is the Calendar window.</comment>
+  </data>
+  <data name="Outlook2010TitleContactsPrefix" xml:space="preserve">
+    <value>Contatti -</value>
+    <comment>This has to exactly match the prefix of the title of the Contacts window in Outlook.  ACATuses this string to  determine whether the window is the Contacts window.</comment>
+  </data>
+  <data name="Outlook2010TitleNotesPrefix" xml:space="preserve">
+    <value>Note-</value>
+    <comment>This has to exactly match the prefix of the title of the Notes window in Outlook.  ACATuses this string to  determine whether the window is the Notes window.</comment>
+  </data>
+  <data name="Outlook2010TitleSuffix" xml:space="preserve">
+    <value>Microsoft Outlook</value>
+    <comment>This has to exactly match the suffix of the title of the Contacts, Notes and Tasks window.  ACATuses this string  to  determine whether the window is the Contacts, Notes or Tasks window.</comment>
+  </data>
+  <data name="Outlook2010TitleTasksPrefix" xml:space="preserve">
+    <value>Attività-</value>
+    <comment>This has to exactly match the prefix of the title of the Tasks window in Outlook.  ACATuses this string to  determine whether the window is the Tasks window.</comment>
+  </data>
+  <data name="Outlook2010TitleTodoPrefix" xml:space="preserve">
+    <value>Lista di cose da fare</value>
+    <comment>This has to exactly match the prefix of the title of the To-do list window in Outlook.  ACATuses this string to  determine whether the window is the To-do list window.</comment>
+  </data>
+  <data name="Outlook2013AddrBookAddToContactsButtonText" xml:space="preserve">
+    <value>Aggiungi ai contatti</value>
+    <comment>This has to exactly match the text on the "Add to contacts"button in the Address book. </comment>
+  </data>
+  <data name="Outlook2013AddrBookFirstNameFieldLabel" xml:space="preserve">
+    <value>Primo:</value>
+    <comment>This has to exactly match the label of the "First"name in the name field in the Address book window. ACATuses this string to  determine whether the field is the "First"name field</comment>
+  </data>
+  <data name="Outlook2013AddrBookLastNameFieldLabel" xml:space="preserve">
+    <value>Ultimo:</value>
+    <comment>This has to exactly match the label of the "Last" name in the name field in the Address book window. ACATuses this string to  determine whether the field is the "Last"name field</comment>
+  </data>
+  <data name="Outlook2013AddrBookSearchFieldLabel" xml:space="preserve">
+    <value>Ricerca:</value>
+    <comment>This has to exactly match the label of the field in the Address book window. ACATuses this string to  determine whether the field is the Search field</comment>
+  </data>
+  <data name="Outlook2013EmailTitleSuffixHTML" xml:space="preserve">
+    <value>- Messaggio (HTML)</value>
+    <comment>This has to exactly match the suffix of the title of an email window for a HTML formatted email.  ACAT uses this string to determine whether the window is an email window.</comment>
+  </data>
+  <data name="Outlook2013EmailTitleSuffixPlainText" xml:space="preserve">
+    <value>- Messaggio (Testo normale)</value>
+    <comment>This has to exactly match the suffix of the title of an email window for a Plain Text formatted email.  ACAT uses this string to determine whether the window is an email window.</comment>
+  </data>
+  <data name="Outlook2013EmailTitleSuffixRichText" xml:space="preserve">
+    <value>- Messaggio (Rich Text)</value>
+    <comment>This has to exactly match the suffix of the title of an email window for a RichText formatted email.  ACAT uses this string to determine whether the window is an email window.</comment>
+  </data>
+  <data name="Outlook2013OpenContactCompanyFieldLabel" xml:space="preserve">
+    <value>Azienda:</value>
+    <comment>This has to exactly match the label of the Company field in the open Contact window. ACATuses this string to  determine whether the field is the Company field</comment>
+  </data>
+  <data name="Outlook2013OpenContactFullNameFieldLabel" xml:space="preserve">
+    <value>Nome e cognome</value>
+    <comment>This has to exactly match the label of the Full Name field in the open Contact window. ACATuses this string to  determine whether the field is the Full Name field</comment>
+  </data>
+  <data name="Outlook2013OpenContactJobTitleFieldLabel" xml:space="preserve">
+    <value>Titolo di lavoro:</value>
+    <comment>This has to exactly match the label of the Job Title field in the open Contact window. ACATuses this string to  determine whether the field is the Job Title field</comment>
+  </data>
+  <data name="Outlook2013OpenTaskPercentCompleteFieldLabel" xml:space="preserve">
+    <value>% Completo:</value>
+    <comment>This has to exactly match the label of the % complete field in the open Task window. ACATuses this string to  determine whether the field is the % Complete field</comment>
+  </data>
+  <data name="Outlook2013OpenTaskPriorityFieldLabel" xml:space="preserve">
+    <value>Priorità:</value>
+    <comment>This has to exactly match the label of the Priority field in the open Task window. ACATuses this string to  determine whether the field is the Priority field</comment>
+  </data>
+  <data name="Outlook2013OpenTaskStatusFieldLabel" xml:space="preserve">
+    <value>Stato:</value>
+    <comment>This has to exactly match the label of the Status field in the open Task window. ACATuses this string to  determine whether the field is the Status field</comment>
+  </data>
+  <data name="Outlook2013TitleAddressBook" xml:space="preserve">
+    <value>Rubrica indirizzi</value>
+    <comment>This has to exactly match the title of the Address Book  window in Outlook 2010.  ACATuses this string to  determine whether the window is the Address Book window.</comment>
+  </data>
+  <data name="Outlook2013TitleCalendarPrefix" xml:space="preserve">
+    <value>Calendario -</value>
+    <comment>This has to exactly match the prefix of the title of the Calendar window in Outlook.  ACATuses this string to  determine whether the window is the Calendar window.</comment>
+  </data>
+  <data name="Outlook2013TitleContactsPrefix" xml:space="preserve">
+    <value>Contatti -</value>
+    <comment>This has to exactly match the prefix of the title of the Contacts window in Outlook.  ACATuses this string to  determine whether the window is the Contacts window.</comment>
+  </data>
+  <data name="Outlook2013TitleNotesPrefix" xml:space="preserve">
+    <value>Note-</value>
+    <comment>This has to exactly match the prefix of the title of the Notes window in Outlook.  ACATuses this string to  determine whether the window is the Notes window.</comment>
+  </data>
+  <data name="Outlook2013TitleSuffix" xml:space="preserve">
+    <value>Outlook</value>
+    <comment>This has to exactly match the suffix of the title of the Contacts, Notes and Tasks window.  ACATuses this string  to  determine whether the window is the Contacts, Notes or Tasks window.</comment>
+  </data>
+  <data name="Outlook2013TitleTodoPrefix" xml:space="preserve">
+    <value>Lista di cose da fare</value>
+    <comment>This has to exactly match the prefix of the title of the To-do list window in Outlook.  ACATuses this string to  determine whether the window is the To-do list window.</comment>
+  </data>
+  <data name="OutlookAttachFileWindowTitle" xml:space="preserve">
+    <value>Inserire File</value>
+    <comment>This string should be verbatim what's on the title of the window when you attach a file to a new email</comment>
+  </data>
+  <data name="PageDown" xml:space="preserve">
+    <value>Pagina giù</value>
+  </data>
+  <data name="PageNofM" xml:space="preserve">
+    <value>Pagina {0} di {1}</value>
+    <comment>{0} is the current page number and {1} is the total number of pages</comment>
+  </data>
+  <data name="PageUp" xml:space="preserve">
+    <value>Pagina su</value>
+  </data>
+  <data name="ParentDir" xml:space="preserve">
+    <value>Cartella precedente</value>
+  </data>
+  <data name="PhotoRotate" xml:space="preserve">
+    <value>Ruotare</value>
+  </data>
+  <data name="PhotoRotateLeft" xml:space="preserve">
+    <value>Ruota a sinistra</value>
+  </data>
+  <data name="PhotoRotateRight" xml:space="preserve">
+    <value>Ruota a destra</value>
+  </data>
+  <data name="PhotoViewer" xml:space="preserve">
+    <value>Visualizzatore di foto</value>
+  </data>
+  <data name="Phrase" xml:space="preserve">
+    <value>Frase</value>
+  </data>
+  <data name="PhraseEditor" xml:space="preserve">
+    <value>Editor di frase</value>
+  </data>
+  <data name="PhraseListEllipses" xml:space="preserve">
+    <value>Elenco...</value>
+  </data>
+  <data name="Phrases" xml:space="preserve">
+    <value>Frasi</value>
+  </data>
+  <data name="PhrasesListEmpty" xml:space="preserve">
+    <value>---LISTA FRASI VUOTA--</value>
+  </data>
+  <data name="PinCannotBeEmpty" xml:space="preserve">
+    <value>Il PIN non può essere vuoto</value>
+  </data>
+  <data name="PINCode" xml:space="preserve">
+    <value>Codice PIN</value>
+  </data>
+  <data name="PinContainsNonNumeric" xml:space="preserve">
+    <value>Il PIN contiene caratteri non numerici</value>
+  </data>
+  <data name="PinHasToBeWithinLimits" xml:space="preserve">
+    <value>Lunghezza del PIN deve essere compreso tra {0} e {1} cifre</value>
+    <comment>{0
+{0} is the lower limit (minimum)and {1}is the upper limit (maximum)</comment>
+  </data>
+  <data name="PinOutsideRange" xml:space="preserve">
+    <value>PIN ha cifre al di fuori dell'intervallo valido</value>
+  </data>
+  <data name="Pitch" xml:space="preserve">
+    <value>Intonazione</value>
+  </data>
+  <data name="PlayPause" xml:space="preserve">
+    <value>Play/pausa</value>
+  </data>
+  <data name="PleaseEnterAnAbbreviation" xml:space="preserve">
+    <value>Prego, inserire un'abbreviazione!</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Attendere prego...</value>
+  </data>
+  <data name="PrevField" xml:space="preserve">
+    <value>Campo precedente</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Precedente</value>
+  </data>
+  <data name="PrevTrack" xml:space="preserve">
+    <value>Traccia precedente</value>
+  </data>
+  <data name="QuickSearch" xml:space="preserve">
+    <value>Ricerca rapida</value>
+  </data>
+  <data name="QuitApplication" xml:space="preserve">
+    <value>Chiudere l'applicazione?</value>
+  </data>
+  <data name="Range0To" xml:space="preserve">
+    <value>Campo: da 0 a</value>
+  </data>
+  <data name="RangeFromTo" xml:space="preserve">
+    <value>da {0} a {1}</value>
+    <comment>{0} is the lower limit of the range and {1} is the upper limit of the range</comment>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Tasso</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rinominare</value>
+  </data>
+  <data name="Reply" xml:space="preserve">
+    <value>Rispondi</value>
+  </data>
+  <data name="ReplyAll" xml:space="preserve">
+    <value>Rispondi a tutti</value>
+  </data>
+  <data name="Reposition" xml:space="preserve">
+    <value>Riposizionamento</value>
+  </data>
+  <data name="ResizeWindow" xml:space="preserve">
+    <value>Ridimensiona finestra</value>
+  </data>
+  <data name="RestoreDefaults" xml:space="preserve">
+    <value>Ripristinare le impostazioni predefinite</value>
+  </data>
+  <data name="RestoreDefaultSettings" xml:space="preserve">
+    <value>Ripristinare le impostazioni predefinite?</value>
+  </data>
+  <data name="RetainTalkWindowTextOnClose" xml:space="preserve">
+    <value>Mantenere il testo della finestra di conversazione</value>
+  </data>
+  <data name="Rewind" xml:space="preserve">
+    <value>Riavvolgimento</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Destra</value>
+  </data>
+  <data name="RightClick" xml:space="preserve">
+    <value>Click destro</value>
+  </data>
+  <data name="RowIterations" xml:space="preserve">
+    <value>Righe</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SaveAndQuit" xml:space="preserve">
+    <value>Salva e chiudi?</value>
+  </data>
+  <data name="SaveFontSetting" xml:space="preserve">
+    <value>Salvare le impostazione del carattere?</value>
+  </data>
+  <data name="SaveSettings" xml:space="preserve">
+    <value>Salvare le impostazioni?</value>
+  </data>
+  <data name="ScanSpeed" xml:space="preserve">
+    <value>Velocità di scansione</value>
+  </data>
+  <data name="ScanTime" xml:space="preserve">
+    <value>Scansione</value>
+  </data>
+  <data name="ScreenLockSettings" xml:space="preserve">
+    <value>Impostazioni di blocco dello schermo</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ricerca</value>
+  </data>
+  <data name="SearchSlashURL" xml:space="preserve">
+    <value>URL di ricerca</value>
+  </data>
+  <data name="SearchTextEmpty" xml:space="preserve">
+    <value>Testo di ricerca è vuota.</value>
+  </data>
+  <data name="Secs" xml:space="preserve">
+    <value>secondi</value>
+    <comment>Seconds</comment>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Selezionare</value>
+  </data>
+  <data name="SelectCamera" xml:space="preserve">
+    <value>Selezionare fotocamera</value>
+  </data>
+  <data name="SelectedCamera" xml:space="preserve">
+    <value>Selezionata la fotocamera: {0}</value>
+    <comment>{0}is the name of the camera</comment>
+  </data>
+  <data name="SelectField" xml:space="preserve">
+    <value>Selezionare il campo</value>
+  </data>
+  <data name="SendSpeechControlSequence" xml:space="preserve">
+    <value>Inviare la sequenza di controllo del discorso?</value>
+  </data>
+  <data name="SetAll" xml:space="preserve">
+    <value>Impostare tutti?</value>
+  </data>
+  <data name="SetParaMode" xml:space="preserve">
+    <value>Impostare la modalità del paragrafo?</value>
+  </data>
+  <data name="SetSentenceMode" xml:space="preserve">
+    <value>Impostare la modalità della frase?</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="SettingsAbbr" xml:space="preserve">
+    <value>Abbreviazioni</value>
+  </data>
+  <data name="SettingsGeneral" xml:space="preserve">
+    <value>Generale</value>
+  </data>
+  <data name="SettingsMouseScan" xml:space="preserve">
+    <value>Scansione del mouse</value>
+  </data>
+  <data name="SettingsPhrases" xml:space="preserve">
+    <value>Frasi</value>
+  </data>
+  <data name="SettingsScan" xml:space="preserve">
+    <value>Scansione</value>
+  </data>
+  <data name="SettingsScreenLock" xml:space="preserve">
+    <value>Blocco schermo</value>
+  </data>
+  <data name="SettingsSizePosition" xml:space="preserve">
+    <value>Dimensione/posizione</value>
+  </data>
+  <data name="SettingsTTS" xml:space="preserve">
+    <value>Sintesi vocale</value>
+  </data>
+  <data name="SettingsWordPrediction" xml:space="preserve">
+    <value>Predizione di parola</value>
+  </data>
+  <data name="SetVolumeTo" xml:space="preserve">
+    <value>Impostare il volume a {0}?</value>
+    <comment>{0} is the volume setting</comment>
+  </data>
+  <data name="ShiftTab" xml:space="preserve">
+    <value>Maiusc Tab</value>
+  </data>
+  <data name="ShowDesktop" xml:space="preserve">
+    <value>Mostra il desktop</value>
+  </data>
+  <data name="ShowGlassUnderTalkWindow" xml:space="preserve">
+    <value>Visualizza vetro sotto la finestra di conversazione</value>
+  </data>
+  <data name="ShowTalkWindowOnStartup" xml:space="preserve">
+    <value>Mostra finestra di conversazione all'avvio</value>
+  </data>
+  <data name="ShowVideo" xml:space="preserve">
+    <value>Mostra Video</value>
+  </data>
+  <data name="Slower" xml:space="preserve">
+    <value>Più lento</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Ordina</value>
+  </data>
+  <data name="SortOrderAlphabetical" xml:space="preserve">
+    <value>Ordine: ALFABETICO</value>
+  </data>
+  <data name="SortOrderChronological" xml:space="preserve">
+    <value>Ordine: CRONOLOGICO</value>
+  </data>
+  <data name="SortOrderReverseAlphabetical" xml:space="preserve">
+    <value>Ordine:  ALFABETICO INVERTITO</value>
+  </data>
+  <data name="SortOrderReverseChronological" xml:space="preserve">
+    <value>Ordine: CRONOLOGICO INVERTITO</value>
+  </data>
+  <data name="SpaceKey" xml:space="preserve">
+    <value>Spazio</value>
+  </data>
+  <data name="Speak" xml:space="preserve">
+    <value>Parlare</value>
+  </data>
+  <data name="SpeakError" xml:space="preserve">
+    <value>Pronuncia l'errore</value>
+  </data>
+  <data name="Speaking" xml:space="preserve">
+    <value>PARLANDO</value>
+  </data>
+  <data name="SpeakingAll" xml:space="preserve">
+    <value>PRONUNCIARE TUTTI</value>
+  </data>
+  <data name="SpeakingLeave" xml:space="preserve">
+    <value>Sto pronunciando, Abbandonare?</value>
+  </data>
+  <data name="SpeakingPara" xml:space="preserve">
+    <value>STO PRONUNCIANDO IL PARAGRAFO</value>
+  </data>
+  <data name="SpeakingSentence" xml:space="preserve">
+    <value>STO PRONUNCIANDO LA FRASE</value>
+  </data>
+  <data name="SpeakNow" xml:space="preserve">
+    <value>Parlare ora?</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="StripScannerIterations" xml:space="preserve">
+    <value>Scanner di banda</value>
+  </data>
+  <data name="SwitchLanguage" xml:space="preserve">
+    <value>Cambia lingua</value>
+  </data>
+  <data name="SwitchTo" xml:space="preserve">
+    <value>Passa a</value>
+  </data>
+  <data name="SwitchWindow" xml:space="preserve">
+    <value>Interruttore Windows</value>
+  </data>
+  <data name="TabKey" xml:space="preserve">
+    <value>Scheda</value>
+  </data>
+  <data name="TalkApp" xml:space="preserve">
+    <value>Parla App</value>
+  </data>
+  <data name="TalkWindow" xml:space="preserve">
+    <value>Finestra di conversazione</value>
+  </data>
+  <data name="TalkWindowTestString" xml:space="preserve">
+    <value>Questo è un esempio</value>
+    <comment>Test string to select the size of font in the Talk window</comment>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Attività</value>
+  </data>
+  <data name="Tasks" xml:space="preserve">
+    <value>Attività</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Prova</value>
+  </data>
+  <data name="TextFile" xml:space="preserve">
+    <value>File di testo</value>
+  </data>
+  <data name="TextToSpeechSettings" xml:space="preserve">
+    <value>Impostazioni di sintesi vocale</value>
+  </data>
+  <data name="TextToSpeechTestString" xml:space="preserve">
+    <value>Questa è una prova. Uno due tre quattro cinque.</value>
+    <comment>This is the test string to test the volume/rate/pitch of text-to-speech. </comment>
+  </data>
+  <data name="ThisMessageBoxWillClose" xml:space="preserve">
+    <value>Questa finestra di messaggio si chiuderà tra {0} secondi</value>
+    <comment>{0} is the number of seconds</comment>
+  </data>
+  <data name="TimeElapsed" xml:space="preserve">
+    <value>Tempo trascorso</value>
+  </data>
+  <data name="TimeRemaining" xml:space="preserve">
+    <value>Tempo rimanente</value>
+  </data>
+  <data name="TitleScanIterations" xml:space="preserve">
+    <value>Scansiona le iterazioni</value>
+  </data>
+  <data name="TitleScanSettings" xml:space="preserve">
+    <value>Scansiona le impostazioni</value>
+  </data>
+  <data name="TitleTimingsMsecs" xml:space="preserve">
+    <value>Intervalli (in msec)</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Strumenti</value>
+  </data>
+  <data name="TriggerToStop" xml:space="preserve">
+    <value>Premere per fermare</value>
+  </data>
+  <data name="TryoutTypeThis" xml:space="preserve">
+    <value>Digita questa parola</value>
+  </data>
+  <data name="TryoutWord1" xml:space="preserve">
+    <value>tè</value>
+    <comment>First word in the ACATTryoutApp. The letters in the word should be one of the letters in the ACATryout keyboard panel</comment>
+  </data>
+  <data name="TryoutWord2" xml:space="preserve">
+    <value>mangiare</value>
+    <comment>Second word in the ACATTryoutApp.  The letters in the word should be one of the letters in the ACATryout keyboard panel</comment>
+  </data>
+  <data name="TryoutWord3" xml:space="preserve">
+    <value>Abbiamo mangiato</value>
+    <comment>Third word in the ACATTryoutApp. The letters in the word should be one of the letters in the ACATryout keyboard panel</comment>
+  </data>
+  <data name="TryoutWord4" xml:space="preserve">
+    <value>scheda</value>
+    <comment>Fourth word in the ACATTryoutApp.  The letters in the word should be one of the letters in the ACATryout keyboard panel</comment>
+  </data>
+  <data name="TryoutWord5" xml:space="preserve">
+    <value>scommessa</value>
+    <comment>Fifth word in the ACATTryoutApp.  The letters in the word should be one of the letters in the ACATryout keyboard panel</comment>
+  </data>
+  <data name="TryoutWord6" xml:space="preserve">
+    <value>pipistrello</value>
+    <comment>Sixth word in the ACATTryoutApp.  The letters in the word should be one of the letters in the ACATryout keyboard panel</comment>
+  </data>
+  <data name="TryoutWord7" xml:space="preserve">
+    <value>barbabietola</value>
+    <comment>Seventh word in the ACATTryoutApp.  The letters in the word should be one of the letters in the ACATryout keyboard panel</comment>
+  </data>
+  <data name="UnableCreateUserErrorExecutingBatchfile" xml:space="preserve">
+    <value>Impossibile creare l'utente. Errore durante l'esecuzione file raggruppato {0}. \nError: {1}</value>
+    <comment>{0} is the name of the batch file, {1} is the error</comment>
+  </data>
+  <data name="UnableToReadPreferences" xml:space="preserve">
+    <value>Impossibile leggere le preferenze da {0}</value>
+    <comment>{0} is the name of the preferences file</comment>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Su</value>
+  </data>
+  <data name="UseCorpusModel" xml:space="preserve">
+    <value>Utilizzare Corpus Modello</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versione {0}</value>
+    <comment>{0} is the version number</comment>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="Wikipedia" xml:space="preserve">
+    <value>Wikipedia</value>
+  </data>
+  <data name="WikiSearch" xml:space="preserve">
+    <value>Ricerca wiki</value>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>Finestra</value>
+  </data>
+  <data name="WindowMaxRestore" xml:space="preserve">
+    <value>Max/Ripristino</value>
+  </data>
+  <data name="WindowMinimize" xml:space="preserve">
+    <value>Minimizzare</value>
+  </data>
+  <data name="WindowMove" xml:space="preserve">
+    <value>Spostare</value>
+  </data>
+  <data name="WindowNotFound" xml:space="preserve">
+    <value>Finestra non trovata</value>
+  </data>
+  <data name="WindowResize" xml:space="preserve">
+    <value>Ridimensionare</value>
+  </data>
+  <data name="WindowResizeDone" xml:space="preserve">
+    <value>Fatto</value>
+  </data>
+  <data name="WindowsAppCalculatorTitle" xml:space="preserve">
+    <value>Calcolatrice</value>
+    <comment>This applies to the Windows 10 Calculator app.  This string should match the title of the Windows Calculator app in Windows 10. Translate it appropriately after verifying on a computer with the culture installed</comment>
+  </data>
+  <data name="WindowsAppPhotosTitle" xml:space="preserve">
+    <value>Fotografie</value>
+    <comment>This applies to the Windows 10 Photos app only  This string should match the embedded string equivalent to "Photos"in the titlebar of the Photos app.match what is displayed as the string "Photos" in the titlebar . Translate it appropriately after verifying on a computer with the culture installed</comment>
+  </data>
+  <data name="WindowsMediaPlayer" xml:space="preserve">
+    <value>Windows Media Player</value>
+    <comment>Set this to the title of the Windows Media Player application window.  It is displayed in the titlebar of Windows Media Player.  If it says "Windows Media Player" in English, don't translate this string.</comment>
+  </data>
+  <data name="WindowSnap" xml:space="preserve">
+    <value>Snap</value>
+  </data>
+  <data name="WindowsPhotoViewer" xml:space="preserve">
+    <value>Visualizzatore foto di Windows</value>
+    <comment>This is the title of the Windows Photo Viewer window.  Translate it appropriately after verifying on a computer with the culture installed</comment>
+  </data>
+  <data name="WindowsStartMenu" xml:space="preserve">
+    <value>Menu di avvio</value>
+  </data>
+  <data name="WindowSwitch" xml:space="preserve">
+    <value>Interruttore</value>
+  </data>
+  <data name="WordCount" xml:space="preserve">
+    <value>Conteggio parole</value>
+  </data>
+  <data name="WordDoc" xml:space="preserve">
+    <value>Documento Word</value>
+  </data>
+  <data name="WordListFirstPauseTime" xml:space="preserve">
+    <value>Lista parole  prima pausa</value>
+  </data>
+  <data name="WordPad" xml:space="preserve">
+    <value>Taccuino</value>
+  </data>
+  <data name="WordPredictionIterations" xml:space="preserve">
+    <value>Predizione di parola</value>
+  </data>
+  <data name="WordPredictionSettings" xml:space="preserve">
+    <value>Impostazioni di predizione di parola</value>
+  </data>
+  <data name="Write" xml:space="preserve">
+    <value>Scrivere</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="YouAreChangingExistingAbbr" xml:space="preserve">
+    <value>State cambiando la sigla esistente {0}. Continuare?</value>
+    <comment>{0} is the abbreviation</comment>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="ZoomDefault" xml:space="preserve">
+    <value>Zoom predefinito</value>
+  </data>
+  <data name="ZoomFit" xml:space="preserve">
+    <value>Addatta zoom</value>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>Ingrandire zoom</value>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>Eseguire lo zoom indietro</value>
+  </data>
+</root>
